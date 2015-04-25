@@ -1,0 +1,419 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+
+.bg_menu{
+	background:url(assets/img/menu/fondo_menu_panel.png) #721321 no-repeat;
+	width:320px;
+	height:480px;}
+	
+	
+#menu_arriba, #menu_abajo, #menu_mueve{
+	font-family:"Helvetica Neue";
+	font-weight:lighter;
+	font-size:34px;
+	color:#f0e7c1;
+	}
+
+
+	
+	
+#menu_arriba ul li,  #menu_abajo ul li{
+	width:70%;
+	margin: 1% auto;
+	
+}
+
+
+#menu_arriba a,  #menu_abajo a, #menu_mueve {
+	background-color:#721321;
+	border:none;
+	color:#f0e7c1;
+	text-shadow:none;
+	text-align:left;
+		
+}
+
+
+/*STYLES CSS TODOS LOS MUSEOS*/
+
+/*CSS del menu*/
+
+#menu_estructura{
+	background:#721321;
+	border:none;
+}
+
+#ancho_del_menu{
+	width:95%;
+	background:#721321;
+	margin:0 auto;
+	}
+	
+	#ancho_del_menu li{
+		
+		width:10%;
+			}
+
+	#ancho_del_menu li a{
+			background:#721321;
+			border:none;}
+
+	#ancho_del_menu #li-diferente{
+		
+		width:70%;}
+		
+		#ancho_del_menu #li-diferente-categorias{
+				width:100%;
+		}
+		#ancho_del_menu #li-diferente a,  #ancho_del_menu #li-diferente-categorias a{
+			font-size:16px;
+		font-weight:500; 
+			font-stretch:normal;
+			text-align:center;
+			text-shadow:none;
+			color:#f0e7c1;
+			
+			}
+			
+			#menu_boton_todos_los_museos{
+				margin-top:-2%}
+				
+				
+			
+				
+				#lista_menu{
+					margin:0;
+					overflow:hidden;
+					padding:0;
+	}
+
+/*CSS del contenedor de todos los museos*/
+
+#contenedor_todos_los_museos{
+	background:#721321;
+	}
+
+
+
+/**
+ * Helvetica Neue Normal (No Stretch)
+ */
+ 
+/* Helvetica Neue Black Font Stack 
+.{font-family: "HelveticaNeueBlack", "HelveticaNeue-Black", "Helvetica Neue Black", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosBold', "Arial Black", sans-serif; font-weight:800; font-stretch:normal;}
+ 
+/* Helvetica Neue Heavy Font Stack 
+.{font-family: "HelveticaNeueHeavy", "HelveticaNeue-Heavy", "Helvetica Neue Heavy", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosBold', "Arial Black", sans-serif; font-weight:700; font-stretch:normal;}
+ 
+/* Helvetica Neue Bold Font Stack 
+.{font-family: "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosBold', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; font-weight:600; font-stretch:normal;}
+
+/* Helvetica Neue Medium Font Stack 
+.{font-family: "HelveticaNeueMedium", "HelveticaNeue-Medium", "Helvetica Neue Medium", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; font-weight:500; font-stretch:normal;}
+ 
+/* Helvetica Neue Regular Font Stack 
+.{font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; font-weight:400; font-stretch:normal;}
+ 
+/* Helvetica Neue Light Font Stack 
+.{font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; font-weight:300; font-stretch:normal;}
+ 
+/* Helvetica Neue Thin Font Stack 
+.{font-family: "HelveticaNeueThin", "HelveticaNeue-Thin", "Helvetica Neue Thin", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Arial", sans-serif; font-weight:200; font-stretch:normal;}
+ 
+/* Helvetica Neue Ultra Light Font Stack 
+.{font-family: "HelveticaNeueUltraLight", "HelveticaNeue-Ultra-Light", "Helvetica Neue Ultra Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Arial", sans-serif; font-weight:100; font-stretch:normal;}
+ */
+
+.ui-content{
+	padding:0;}
+
+#primer_museo{
+	
+	text-shadow:none;
+	}
+
+#primer_museo img{
+	width:100%;
+	
+}
+
+#primer_museo a {
+	text-decoration:none;}
+
+#titulo_subtitulo_precio{
+	margin-top:-24%;
+	height:55px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:#f0e7c1;
+	background:#721321;
+	opacity:0.7;
+	padding: 4px 15px;
+
+	
+	
+
+	}
+	
+	#titulo_subtitulo_precio h1, #titulo_subtitulo_precio h3{
+		font-size:16px;
+		font-weight:500; 
+			font-stretch:normal;}
+			
+		#titulo_subtitulo_precio h1, #titulo_subtitulo_precio p {
+					margin: 4px 0 0 0;
+				width:200px;}	
+		
+			
+			#titulo_subtitulo_precio p{
+			margin: 10px 0 0 0;
+				font-size:10px;
+					font-weight:400;
+					font-stretch:normal;
+				}
+		
+					
+			 #titulo_subtitulo_precio h3{
+				 text-transform:uppercase;
+				 position:relative;
+				 top:-60%;
+				 left:76%}
+			
+			
+			
+	
+	/*IMAGENES DEL SEGUNDO MUSEO*/
+	
+	#segundo_museo{
+		margin-top:3px;
+	
+	text-shadow:none;
+	}
+
+#segundo_museo img{
+	width:100%;
+	
+}
+
+#segundo_museo a {
+	text-decoration:none;}
+
+#titulo_subtitulo_precio2{
+	margin-top:-24%;
+	height:55px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:#f0e7c1;
+	background:#721321;
+	opacity:0.7;
+	padding: 4px 15px;
+
+	
+	
+
+	}
+	
+	#titulo_subtitulo_precio2 h1, #titulo_subtitulo_precio2 h3{
+		font-size:16px;
+		font-weight:500; 
+			font-stretch:normal;}
+			
+		#titulo_subtitulo_precio2 h1, #titulo_subtitulo_precio2 p {
+					margin: 4px 0 0 0;
+				width:200px;}	
+		
+			
+			#titulo_subtitulo_precio2 p{
+			margin: 10px 0 0 0;
+				font-size:10px;
+					font-weight:400;
+					font-stretch:normal;
+				}
+		
+					
+			 #titulo_subtitulo_precio2 h3{
+				 text-transform:uppercase;
+				 position:relative;
+				 top:-60%;
+				 left:76%}
+			
+			
+			/*IMAGENES DEL TERCER MUSEO*/
+	
+	#tercer_museo{
+		margin-top:3px;
+	
+	text-shadow:none;
+	}
+
+#tercer_museo img{
+	width:100%;
+	
+}
+
+#tercer_museo a {
+	text-decoration:none;}
+
+#titulo_subtitulo_precio3{
+	margin-top:-24%;
+	height:55px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:#f0e7c1;
+	background:#721321;
+	opacity:0.7;
+	padding: 4px 15px;
+
+	
+	
+
+	}
+	
+	#titulo_subtitulo_precio3 h1, #titulo_subtitulo_precio3 h3{
+		font-size:16px;
+		font-weight:500; 
+			font-stretch:normal;}
+			
+		#titulo_subtitulo_precio3 h1, #titulo_subtitulo_precio3 p {
+					margin: 4px 0 0 0;
+				width:200px;}	
+		
+			
+			#titulo_subtitulo_precio3 p{
+			margin: 10px 0 0 0;
+				font-size:10px;
+					font-weight:400;
+					font-stretch:normal;
+				}
+		
+					
+			 #titulo_subtitulo_precio3 h3{
+				 text-transform:uppercase;
+				 position:relative;
+				 top:-60%;
+				 left:76%}
+			
+		
+	
+	
+	
+	
+/*CSS DE LA INFORMACION DEL MUSEO*/
+
+
+
+#info_primer_museo{
+	background:#721321;
+	border:none;
+	}
+
+#info_primer_museo h1{
+	color:#f0e7c1;
+	font-size:20px;
+	text-align:center;
+	margin:40% auto;
+	margin-bottom:10%;
+	text-shadow:none;}
+	
+	#info_museo1{
+		background:#0ADBBE url(assets/img/info_museo/museo1/banner_museo.png);
+		background-size:cover;
+		overflow:hidden;
+
+
+		
+		
+	}
+	
+
+
+	
+	
+	
+	#menu_estructura_info{
+	/*background:#721321;*/
+	border:none;
+	margin-bottom: 49% !important;
+
+}
+
+#ancho_del_menu_info{
+	width:100%;
+	background:#721321;
+	padding:10% auto;
+
+
+
+	}
+	
+	#ancho_del_menu_info li{
+		width:33%;
+		padding:10% auto;
+		
+	}
+
+	#ancho_del_menu_info li a{
+			background:#721321;
+			opacity: 1;
+			border:none;
+			text-shadow:none;
+			color:#f0e7c1;
+			font-size:15px;}
+
+			
+		#ancho_del_menu_info #li-diferente-categorias{
+				width:100%;
+		}
+		
+		
+.nav-glyphish-example .ui-btn { padding-top: 40px !important; padding-top: 40px !important;}
+.nav-glyphish-example .ui-btn:after { width: 30px!important; height: 30px!important; margin-left: -15px !important; box-shadow: none!important; -moz-box-shadow: none!important; -webkit-box-shadow: none!important;  }
+
+#horarios:after { background:url(assets/img/info_museo/museo1/horarios.png) 50% 50% no-repeat; background-size:58px 58px; 
+}
+#ubicacion:after { background:url(assets/img/info_museo/museo1/ubicacion.png) 50% 50% no-repeat; background-size:58px 58px; }
+#eventos:after { background:url(assets/img/info_museo/museo1/eventos.png) 50% 50% no-repeat; background-size:58px 58px; }
+
+
+#footer_descargar_app{
+	background:#721321;
+	border:none;
+	width:100%;
+		
+		
+}
+
+#footer_descargar_app p{
+	width:100%;
+	text-shadow:none;
+	color:#f0e7c1;
+	font-weight:300;
+	text-align:center;
+	display:block;
+	margin:0;
+	margin-left:-20px;
+
+	height:58px;
+	padding-top:14%;
+	
+}
+
+	
+
+
+
+
+
+#logoStore{
+	background: background:#721321 url(assets/img/info_museo/museo1/logoAppStore.png) no-repeat; 
+	width:58px;
+	height:58px;
+	float:right;
+	position:relative;
+	top:-20px;
+	left:10px;
+	
+	
+		
+	}

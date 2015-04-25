@@ -1,0 +1,212 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>App Museo</title>
+</head>
+
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+<div data-role="page" class="bg_menu">
+<div data-role="content">
+
+    <div data-role="navbar" id="menu_arriba">        
+      <ul>
+        <li><a href="#todos_los_museos" class="ui-btn ui-btn-inline ui-corner-all" data-transition="slide"> Todos los museos</a></li>
+        <li>        <a href="#museos_cercanos" class="ui-btn ui-btn-inline" data-transition="slide">Museos cercanos</a>
+        </li>
+        <li><a href="#eventos" class="ui-btn ui-btn-inline ui-corner-all" data-transition="slide">Eventos</a></li>
+      </ul>
+    </div>
+    
+        <div data-role="navbar" id="menu_abajo"> 
+        <ul>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Ayuda</a></li>
+        <li><a href="#">Retroalimentaci&oacute;n</a></li>
+      </ul>
+
+    </div>
+
+  </div>
+</div>
+
+<!-- LA PAGINA DE TODOS LOS MUSEOS-->
+
+<div data-role="page" id="todos_los_museos">
+
+  <div data-role="panel" id="menu_mueve">
+     <div data-role="navbar" id="menu_arriba">        
+      <ul>
+        <li><a href="#" class="ui-btn ui-btn-inline ui-corner-all" data-transition="slide" data-rel="close"> Todos los museos</a></li>
+        <li>        <a href="#museos_cercanos" class="ui-btn ui-btn-inline" data-transition="slide">Museos cercanos</a>
+        </li>
+        <li><a href="#eventos" class="ui-btn ui-btn-inline ui-corner-all" data-transition="slide">Eventos</a></li>
+      </ul>
+    </div>
+    
+        <div data-role="navbar" id="menu_abajo"> 
+        <ul>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Ayuda</a></li>
+        <li><a href="#">Retroalimentaci&oacute;n</a></li>
+      </ul>
+
+    </div>
+  </div>
+  
+  
+  
+  <div data-role="header">
+    <div data-role="navbar" id="menu_estructura">             
+      <ul id="ancho_del_menu">
+        <li><a href="#menu_mueve" data-icon="bars" data-display="push"></a></li>
+        <li id="li-diferente">
+           <div data-role="collapsible" data-collapsed="true" data-iconpos="right"  data-collapsed-icon="carat-d" data-expanded-icon="carat-u" id="menu_boton_todos_los_museos">
+                <h4>Todos los museos</h4>
+      
+                <ul data-role="listview" data-icon="carat-d" id="lista_menu">
+                    <li id="li-diferente-categorias"><a href="#">Arte</a></li>
+                    <li id="li-diferente-categorias"><a href="#">Historia</a></li>
+                </ul>
+       
+            </div>
+       </li>
+        <li><a href="#" data-icon="search"></a></li>
+        <li><a href="#" data-icon="bullets"></a></li>
+      </ul>
+    </div>
+  </div>
+  <!-- Empieza el contenido de la de todos los museos -->
+  <div data-role="content" id="contenedor_todos_los_museos">
+  <div id="primer_museo">
+  <a href="#info_primer_museo" data-transition="slide" >
+  <img alt="museo1" src="assets/img/todos_los_museos/museo1.png"/>
+  <div id="titulo_subtitulo_precio">
+    <h1>Casa Nac. del Bicentenario</h1>
+    <p>Riobamba 985, Recoleta</p>
+    <h3>Gratis</h3>
+    </div>
+    </a>
+  </div>
+  
+  <div id="segundo_museo">
+  <a href="#segundo_museo" data-transition="slide" >
+  <img alt="museo2" src="assets/img/todos_los_museos/museo2.png"/>
+  <div id="titulo_subtitulo_precio2">
+   <h1>Centro Ana Frank Arg.</h1>
+    <p>Superi 267, Coghlan</p>
+    <h3>$30</h3>
+    </div>
+    </a>
+  </div>
+  
+  
+  <div id="tercer_museo">
+  <a href="#tercer_museo" data-transition="slide" >
+  <img alt="museo3" src="assets/img/todos_los_museos/museo1.png"/>
+  <div id="titulo_subtitulo_precio3">
+   <h1>Centro Ana Frank Arg.</h1>
+    <p>Superi 267, Coghlan</p>
+    <h3>$30</h3>
+    </div>
+    </a>
+  </div>
+  
+  
+  </div>
+  
+</div>
+
+
+
+
+<div data-role="page" id="info_primer_museo">
+
+<div data-role="panel" id="menu_mueve">
+     <div data-role="navbar" id="menu_arriba">        
+      <ul>
+        <li><a href="#todos_los_museos" class="ui-btn ui-btn-inline ui-corner-all" data-transition="slide" data-rel="slide"> Todos los museos</a></li>
+        <li>        <a href="#museos_cercanos" class="ui-btn ui-btn-inline" data-transition="slide">Museos cercanos</a>
+        </li>
+        <li><a href="#eventos" class="ui-btn ui-btn-inline ui-corner-all" data-transition="slide">Eventos</a></li>
+      </ul>
+    </div>
+    
+        <div data-role="navbar" id="menu_abajo"> 
+        <ul>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Ayuda</a></li>
+        <li><a href="#">Retroalimentaci&oacute;n</a></li>
+      </ul>
+
+    </div>
+  </div>
+
+
+  <div data-role="header">
+    <div data-role="navbar" id="menu_estructura">             
+      <ul id="ancho_del_menu">
+        <li><a href="#menu_mueve" data-icon="bars" data-display="push"></a></li>
+        <li id="li-diferente">
+           <div data-role="collapsible" data-collapsed="true" data-iconpos="right"  data-collapsed-icon="carat-d" data-expanded-icon="carat-u" id="menu_boton_todos_los_museos">
+                <h4>Todos los museos</h4>
+      
+                <ul data-role="listview" data-icon="carat-d" id="lista_menu">
+                    <li id="li-diferente-categorias"><a href="#">Arte</a></li>
+                    <li id="li-diferente-categorias"><a href="#">Historia</a></li>
+                </ul>
+       
+            </div>
+       </li>
+        <li><a href="#" data-icon="search"></a></li>
+        <li><a href="#" data-icon="bullets"></a></li>
+      </ul>
+    </div>
+  </div>
+  
+  <!-- ACA EMPIEZA EL CONTENIDO DE LA INFORMACION DEL MUSEO -->
+  <div data-role="content" id="info_museo1">
+  <h1>CASA NACIONAL DEL BICENTENARIO</h1>
+  
+  <div data-role="navbar" id="menu_estructura_info" class="nav-glyphish-example" data-iconpos="top">             
+      <ul id="ancho_del_menu_info">
+        <li><a href="#" id="horarios" data-icon="custom">Horarios</a></li>
+    
+        <li><a href="#" id="ubicacion" data-icon="custom">Gps</a></li>
+        <li><a href="#" id="eventos" data-icon="custom">Eventos</a></li>
+      </ul>
+    </div>
+  
+  <div data-role="footer" id="footer_descargar_app" data-position="fixed">
+  <p>Desacargar Aplicaci&oacute;n  <img  id="logoStore" src="assets/img/info_museo/museo1/logoAppStore.png"/> </p> 
+ 
+  
+  </div>
+  
+  
+</div>
+
+
+
+
+
+
+<div data-role="page" id="museos_cercanos">
+  <div data-role="header">
+    <h1> Museos Cercanos</h1>
+  </div>
+</div>
+<div data-role="page" id="eventos">
+  <div data-role="header">
+    <h1> Eventos</h1>
+  </div>
+</div>
+</body>
+</html>
