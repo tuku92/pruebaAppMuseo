@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.phonegap.example"
+        versionCode = "10" 
+        version     = "1.0.0" >
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>MuBA - Museos de Buenos Aires</name>
+
+    <description>
+       MuBA es una aplicacion para ver los diferentes Museos De Buenos Aires.
+
+Creador: Alan - Hindle 
+Para: Universidad Maimonides 
+    </description>
+
+    <author href="https://build.phonegap.com" email="alan_hindle@hotmail.com">
+        Alan Hindle
+    </author>
+	
+<icon src="mipmap-mdpi/mdpi.png" gap:platform="android" gap:qualifier="mdpi" />
+<icon src="mipmap-hdpi/hdpi.png" gap:platform="android" gap:qualifier="hdpi" />
+<icon src="mipmap-xhdpi/xhdpi.png" gap:platform="android" gap:qualifier="xhdpi" />
+<icon src="mipmap-xxhdpi/xxhdpi.png" gap:platform="android" gap:qualifier="xxhdpi" />
+
+</widget>
