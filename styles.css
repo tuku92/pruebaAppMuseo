@@ -2,7 +2,9 @@
 /* CSS Document */
 
 body{
-	border:none;}
+	border:none;
+	font-family: 'Arimo', sans-serif !important;
+	overflow-y:hidden;}
 
 
 .bg_menu{
@@ -12,12 +14,14 @@ body{
 	
 	
 #menu_arriba, #menu_abajo, #menu_mueve{
-	font-family:"Helvetica Neue";
 	font-weight:lighter;
-	font-size:34px;
+	font-size:40px;
 	color:#f0e7c1;
 	}
 
+.ui-navbar li .ui-btn{
+	font-size:15px;
+	}
 
 	
 	
