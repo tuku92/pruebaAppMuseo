@@ -1,8 +1,8 @@
 @charset "utf-8";
 /* CSS Document */
 
-
-
+body{
+	border:none;}
 
 
 .bg_menu{
@@ -23,7 +23,14 @@
 	
 #menu_arriba ul li,  #menu_abajo ul li{
 	width:70%;
-	margin: 1% auto;
+	margin: 0;
+	
+}
+
+#menu_arriba ul li a,  #menu_abajo ul li a{
+	padding-top:15px;
+	height:30px;
+
 	
 }
 
@@ -299,8 +306,22 @@
 	
 	
 	
-/*CSS DE LA INFORMACION DEL MUSEO*/
+/*CSS DE LA INFORMACION DEL MUSEO*/ç
 
+
+.ui-body-a, .ui-page-theme-a .ui-body-inherit, html .ui-bar-a .ui-body-inherit, html .ui-body-a .ui-body-inherit, html body .ui-group-theme-a .ui-body-inherit, html .ui-panel-page-container-a{
+	background:#721321;
+	border:none;
+	}
+	
+ç .ui-body-a, .ui-page-theme-a .ui-body-inherit, html .ui-bar-a .ui-body-inherit, html .ui-body-a .ui-body-inherit, html body .ui-group-theme-a .ui-body-inherit, html .ui-panel-page-container-a{
+	height:0px;
+	}
+
+#lista_menu{
+		padding-top:-10px;
+		position:relative;
+		top:-50px;}
 
 
 #info_primer_museo{
