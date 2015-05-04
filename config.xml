@@ -20,9 +20,18 @@ Para: Universidad Maimonides
         Alan Hindle
     </author>
 	
-<icon src="mipmap-mdpi/mdpi.png" gap:platform="android" gap:qualifier="mdpi" />
-<icon src="mipmap-hdpi/hdpi.png" gap:platform="android" gap:qualifier="hdpi" />
-<icon src="mipmap-xhdpi/xhdpi.png" gap:platform="android" gap:qualifier="xhdpi" />
-<icon src="mipmap-xxhdpi/xxhdpi.png" gap:platform="android" gap:qualifier="xxhdpi" />
+<icon src="res/icon/android/mipmap-mdpi/mdpi.png" gap:platform="android" gap:qualifier="mdpi" />
+<icon src="res/icon/android/mipmap-hdpi/hdpi.png" gap:platform="android" gap:qualifier="hdpi" />
+<icon src="res/icon/android/mipmap-xhdpi/xhdpi.png" gap:platform="android" gap:qualifier="xhdpi" />
+<icon src="res/icon/android/mipmap-xxhdpi/xxhdpi.png" gap:platform="android" gap:qualifier="xxhdpi" />
+
+
+
+<!-- DEfinimos el splash para cada plataforma. -->
+<gap:splash src="res/screen/android/res-long-port-ldpi/default.png" gap:platform="android" gap:qualifier="port-ldpi" />
+<gap:splash src="res/screen/android/res-long-port-mdpi/default.png" gap:platform="android" gap:qualifier="port-mdpi" />
+<gap:splash src="res/screen/android/res-long-port-hdpi/default.png" gap:platform="android" gap:qualifier="port-hdpi" />
+<gap:splash src="res/screen/android/res-long-port-xhdpi/default.png" gap:platform="android" gap:qualifier="port-xhdpi" />
+
 
 </widget>
