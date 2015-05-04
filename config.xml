@@ -19,7 +19,7 @@ Para: Universidad Maimonides
     <author href="https://build.phonegap.com" email="alan_hindle@hotmail.com">
         Alan Hindle
     </author>
-
+<icon src="icon.png"/>
 <icon src="res/icon/android/mipmap-mdpi/mdpi.png" gap:platform="android" gap:qualifier="mdpi" />
 <icon src="res/icon/android/mipmap-hdpi/hdpi.png" gap:platform="android" gap:qualifier="hdpi" />
 <icon src="res/icon/android/mipmap-xhdpi/xhdpi.png" gap:platform="android" gap:qualifier="xhdpi" />
