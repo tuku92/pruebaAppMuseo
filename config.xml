@@ -19,7 +19,7 @@ Para: Universidad Maimonides
     <author href="https://build.phonegap.com" email="alan_hindle@hotmail.com">
         Alan Hindle
     </author>
-	
+
 <icon src="res/icon/android/mipmap-mdpi/mdpi.png" gap:platform="android" gap:qualifier="mdpi" />
 <icon src="res/icon/android/mipmap-hdpi/hdpi.png" gap:platform="android" gap:qualifier="hdpi" />
 <icon src="res/icon/android/mipmap-xhdpi/xhdpi.png" gap:platform="android" gap:qualifier="xhdpi" />
@@ -28,6 +28,7 @@ Para: Universidad Maimonides
 
 
 <!-- DEfinimos el splash para cada plataforma. -->
+<gap:splash src="splash.png"/>
 <gap:splash src="res/screen/android/res-long-port-ldpi/default.png" gap:platform="android" gap:qualifier="port-ldpi" />
 <gap:splash src="res/screen/android/res-long-port-mdpi/default.png" gap:platform="android" gap:qualifier="port-mdpi" />
 <gap:splash src="res/screen/android/res-long-port-hdpi/default.png" gap:platform="android" gap:qualifier="port-hdpi" />
